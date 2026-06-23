@@ -1,0 +1,43 @@
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Large media files
+# This project intentionally includes the compressed AD demo video under assets.
+*.mp4
+*.mov
+*.webm
+*.avi
+!assets/AD Demo Video.mp4
+
+# Sensitive local files
+# Keep real credentials and production exports out of the repo.
+*password*
+*secret*
+*credential*
+*.key
+*.pem
+.env
+
+# Portfolio screenshot exceptions
+# These are documentation screenshots only, not credential files.
+!screenshots/*password*.png
+!screenshots/*password*.jpg
+!screenshots/*password*.jpeg
+!screenshots/*password*.webp
+
+# Real or production exports
+real-users.csv
+production-users.csv
+prod-*.csv
+
+# PowerShell local history/config
+ConsoleHost_history.txt
+
+# Office temp files
+~$*
