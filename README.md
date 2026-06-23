@@ -1,67 +1,93 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:59C3FF,55:7C83FD,100:FF9A9E&height=190&section=header&text=Active%20Directory%20Administration%20Lab%20%F0%9F%96%A5%EF%B8%8F&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=User%20provisioning%2C%20password%20resets%2C%20lockouts%2C%20security%20groups%2C%20and%20mapped%20drives&descAlignY=58&descSize=15" alt="Active Directory Lab Banner" />
-
 # Active Directory Administration Lab
 
-**A hands-on Windows Server lab for identity management, help desk workflows, access control, and PowerShell automation.**
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:7DD3FC,50:C4B5FD,100:FCA5A5&text=Active%20Directory%20Administration%20Lab&fontAlignY=35&fontColor=ffffff&fontSize=34&desc=User%20provisioning%2C%20password%20resets%2C%20lockouts%2C%20security%20groups%2C%20mapped%20drives%2C%20and%20PowerShell%20automation&descAlignY=58&descSize=13" alt="Active Directory Administration Lab Banner" />
+</p>
 
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-black?style=for-the-badge&logo=github)](https://github.com/MoustafaObari/active-directory-administration-lab)
+<h1 align="center">Active Directory Administration Lab</h1>
 
-[Overview](#-overview) • [Use Cases](#-ideal-use-cases) • [Features](#-features) • [Tech Stack](#-tech-stack) • [Setup](#-getting-started) • [Demo](#-demo-video) • [Screenshots](#-screenshots) • [Security Decision](#-security-design-decision) • [Developer](#-developer)
+<p align="center">
+  <b>A hands-on Windows Server lab for identity management, help desk workflows, access control, and PowerShell automation.</b>
+</p>
 
-<br>
+<p align="center">
+  <a href="https://github.com/MoustafaObari/Active-Directory-Administration-Lab">
+    <img src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub" />
+  </a>
+</p>
 
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-2B7CD3?style=for-the-badge&logo=powershell&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity%20Management-3155A4?style=for-the-badge&logo=windows&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows%20Server-Domain%20Controller-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/Oracle%20VirtualBox-Lab%20Environment-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
+<p align="center">
+  <a href="#-overview"><img src="https://img.shields.io/badge/Overview-111827?style=for-the-badge" alt="Overview" /></a>
+  <a href="#-use-cases"><img src="https://img.shields.io/badge/Use%20Cases-111827?style=for-the-badge" alt="Use Cases" /></a>
+  <a href="#-features"><img src="https://img.shields.io/badge/Features-111827?style=for-the-badge" alt="Features" /></a>
+  <a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech%20Stack-111827?style=for-the-badge" alt="Tech Stack" /></a>
+  <a href="#-setup"><img src="https://img.shields.io/badge/Setup-111827?style=for-the-badge" alt="Setup" /></a>
+  <a href="#-demo-video"><img src="https://img.shields.io/badge/Demo-111827?style=for-the-badge" alt="Demo" /></a>
+  <a href="#-screenshots"><img src="https://img.shields.io/badge/Screenshots-111827?style=for-the-badge" alt="Screenshots" /></a>
+  <a href="#-security-design-decision"><img src="https://img.shields.io/badge/Security%20Decision-111827?style=for-the-badge" alt="Security Decision" /></a>
+</p>
 
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-IT%20Support%20%7C%20SysAdmin-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/badge/PowerShell-111827?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Active%20Directory-2563EB?style=flat-square&logo=microsoft&logoColor=white" alt="Active Directory" />
+  <img src="https://img.shields.io/badge/Windows%20Server-111827?style=flat-square&logo=windows&logoColor=white" alt="Windows Server" />
+  <img src="https://img.shields.io/badge/Domain%20Controller-2563EB?style=flat-square" alt="Domain Controller" />
+  <img src="https://img.shields.io/badge/Oracle%20VirtualBox-111827?style=flat-square&logo=virtualbox&logoColor=white" alt="Oracle VirtualBox" />
+  <img src="https://img.shields.io/badge/Lab%20Environment-0F172A?style=flat-square" alt="Lab Environment" />
+</p>
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-111827?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/Status-Completed-16A34A?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/Focus-IT%20Support%20%7C%20SysAdmin-2563EB?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/License-MIT-16A34A?style=flat-square" alt="License" />
+</p>
 
 ---
 
-## 🧠 Overview
+## 🌸 Overview
 
 **Active Directory Administration Lab** is a complete Windows domain lab designed to demonstrate real-world IT Support, Help Desk, Desktop Support, and Junior System Administrator workflows.
 
 The project simulates a small business environment with a Windows Server domain controller, a Windows 10 domain-joined client, Active Directory users, security groups, password policies, account lockout testing, shared folder permissions, mapped network drives, and PowerShell-based user provisioning.
 
-The goal was not just to create users. The goal was to show the full support workflow around identity, access, troubleshooting, account recovery, and secure resource access.
+The goal was not only to create users. The goal was to show the full support workflow around identity, access, troubleshooting, account recovery, and secure resource access.
 
-This project demonstrates how I approach IT work: **build the environment, automate the repeatable parts, validate access manually where security matters, document the result, and prove it with screenshots.**
+This project demonstrates how I approach IT work:
+
+> Build the environment, automate the repeatable parts, validate access manually, document the result, and prove it with screenshots.
 
 ---
 
-## 💼 Ideal Use Cases
+## 💼 Use Cases
 
-- 🧑‍💻 **IT Support / Help Desk:** Practice user lookup, password resets, account unlocks, and domain sign-in troubleshooting.
-- 🏢 **Desktop Support:** Validate a Windows 10 client joined to a domain and test user access from the workstation side.
-- 🔐 **Junior System Administration:** Configure OUs, users, groups, password policies, lockout policies, and shared folder permissions.
-- 📁 **Access Management:** Use security groups to control access to department folders instead of assigning permissions directly to users.
-- ⚙️ **PowerShell Automation:** Automate repeatable lab user creation while keeping sensitive access-control steps intentional and reviewed.
+| Use Case | What This Lab Demonstrates |
+|---|---|
+| **IT Support / Help Desk** | User lookup, password reset, account unlock, lockout troubleshooting, and domain sign-in support. |
+| **Desktop Support** | Windows 10 domain join validation, user sign-in testing, and mapped drive verification. |
+| **Junior System Administration** | OU structure, AD user management, security groups, password policy, account lockout policy, and shared folder permissions. |
+| **Access Management** | Security group-based access to shared resources and least-privilege folder permissions. |
+| **PowerShell Automation** | Repeatable lab user provisioning while keeping access-control decisions intentional and reviewable. |
 
 ---
 
 ## ✨ Features
 
-✅ **Domain Controller Lab:** Built a Windows Server domain controller in Oracle VirtualBox.  
-✅ **Domain-Joined Client:** Connected a Windows 10 workstation to the domain for real end-user testing.  
-✅ **Bulk User Creation:** Created lab users through a PowerShell script.  
-✅ **OU Management:** Created a dedicated Organizational Unit for lab users.  
-✅ **Password Reset Workflow:** Practiced resetting user passwords through Active Directory Users and Computers.  
-✅ **Account Lockout Testing:** Configured lockout policy and tested failed sign-in behavior.  
-✅ **Account Unlock Workflow:** Located and unlocked a locked domain account.  
-✅ **Password Policy Configuration:** Applied minimum password length and expiry settings.  
-✅ **Security Group Access:** Created folder access groups and assigned users through group membership.  
-✅ **Shared Folder Permissions:** Configured access to a company share using group-based permissions.  
-✅ **Mapped Network Drive Testing:** Verified that the domain user could access the mapped drive from the client machine.  
-✅ **Clean Documentation:** Organized screenshots, script files, and project notes for a professional GitHub portfolio repo.
+- ✅ Built a Windows Server virtual machine as an Active Directory Domain Controller.
+- ✅ Created and organized Active Directory users, OUs, and security groups.
+- ✅ Joined a Windows 10 client machine to the domain.
+- ✅ Tested domain sign-in from the Windows 10 workstation.
+- ✅ Practiced password reset workflows in Active Directory Users and Computers.
+- ✅ Configured password policy with minimum password length and expiry settings.
+- ✅ Configured account lockout policy after failed sign-in attempts.
+- ✅ Tested account lockout from the Windows 10 client.
+- ✅ Located and unlocked a locked domain user account.
+- ✅ Created shared folder access using security groups.
+- ✅ Configured folder permissions using group-based access control.
+- ✅ Mapped a network drive for a domain user.
+- ✅ Validated mapped drive access from the Windows 10 client.
+- ✅ Automated repeatable lab user creation with PowerShell.
+- ✅ Documented the full project with screenshots and a demo video.
 
 ---
 
@@ -75,9 +101,9 @@ This project demonstrates how I approach IT work: **build the environment, autom
 | Directory Service | Active Directory Domain Services |
 | Admin Console | Active Directory Users and Computers |
 | Automation | Windows PowerShell |
-| Access Control | Security Groups + Shared Folder Permissions |
+| Access Control | Security Groups + NTFS / Shared Folder Permissions |
 | Network Resource | Mapped Network Drive |
-| Documentation | Markdown + Screenshots |
+| Documentation | Markdown + Screenshots + Demo Video |
 
 ---
 
@@ -85,26 +111,26 @@ This project demonstrates how I approach IT work: **build the environment, autom
 
 | Component | Purpose |
 |---|---|
-| Domain Controller | Hosts Active Directory Domain Services and manages the lab domain. |
-| Windows 10 Client | Used to test domain sign-in, mapped drives, and access permissions. |
-| Lab Users OU | Dedicated container for automated test users. |
-| Security Groups | Used to control access to shared resources. |
-| CompanyData Share | Simulated business file share for testing folder access. |
-| HR Folder Access Group | Example department access group used to validate secure folder permissions. |
+| **Windows Server Domain Controller** | Hosts Active Directory Domain Services and manages the lab domain. |
+| **Windows 10 Client** | Used to test domain join, user sign-in, mapped drives, and access permissions. |
+| **Lab Users OU** | Dedicated container for automated test users. |
+| **Security Groups** | Used to control access to shared resources. |
+| **CompanyData Share** | Simulated business file share for testing folder access. |
+| **HR Folder Access Group** | Example department access group used to validate secure folder permissions. |
 
 ```text
-Windows Server DC
-     │
-     ├── Active Directory Domain Services
-     ├── Lab_Users Organizational Unit
-     ├── Security Groups
-     ├── Password / Lockout Policies
-     └── CompanyData Shared Folder
-              │
-              └── Windows 10 Domain Client
-                       ├── Domain sign-in test
-                       ├── Account lockout test
-                       └── Mapped network drive test
+Windows Server
+└── Active Directory Domain Services
+    ├── Domain Controller
+    ├── Lab_Users Organizational Unit
+    ├── Security Groups
+    ├── Password / Lockout Policies
+    └── CompanyData Shared Folder
+        │
+        └── Windows 10 Domain Client
+            ├── Domain Sign-In Test
+            ├── Account Lockout Test
+            └── Mapped Network Drive Test
 ```
 
 ---
@@ -115,6 +141,7 @@ Windows Server DC
 Active Directory Administration Lab/
 │
 ├── README.md
+├── LICENSE
 ├── .gitignore
 │
 ├── scripts/
@@ -147,13 +174,13 @@ Active Directory Administration Lab/
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Setup
 
 ### 1️⃣ Clone the Repository
 
-```bash
-git clone https://github.com/MoustafaObari/active-directory-administration-lab.git
-cd active-directory-administration-lab
+```powershell
+git clone https://github.com/MoustafaObari/Active-Directory-Administration-Lab.git
+cd Active-Directory-Administration-Lab
 ```
 
 ### 2️⃣ Prepare the Lab Environment
@@ -161,8 +188,8 @@ cd active-directory-administration-lab
 Create two virtual machines in Oracle VirtualBox:
 
 ```text
-Windows Server  -> Domain Controller
-Windows 10      -> Domain-Joined Client
+Windows Server  → Domain Controller
+Windows 10      → Domain-Joined Client
 ```
 
 Recommended lab flow:
@@ -189,7 +216,7 @@ Expected result:
 
 ```text
 Lab_Users OU is created if missing.
-User01 through User10 are created.
+Several lab users are created.
 Existing users are skipped safely.
 Each account is enabled and prepared for first sign-in.
 ```
@@ -204,36 +231,38 @@ The included PowerShell script is located here:
 scripts/LabUsers.ps1
 ```
 
-For repeatable lab testing, the script uses a hardcoded demo password:
+For repeatable lab testing, the script assigns a temporary initial password to newly created lab users:
 
 ```powershell
 $LabPassword = "P@ssword123"
 ```
 
-This is acceptable for an isolated portfolio lab, but in a production environment I would replace this with a secure prompt, vault reference, or approved password management process.
+This password is used only as the first sign-in password for newly provisioned accounts. Each user is configured to change the password at next logon, which mirrors a common onboarding workflow used in IT support and system administration.
 
-The script performs the following actions:
+In a production environment, the initial password would normally be generated securely, delivered through an approved process, or managed through an internal password management tool. For this isolated lab, the hardcoded value keeps the demo simple, repeatable, and easy to validate.
+
+### What the Script Does
 
 | Step | Action |
-|---|---|
+|---:|---|
 | 1 | Imports the Active Directory PowerShell module. |
 | 2 | Detects the current domain automatically. |
 | 3 | Creates a dedicated `Lab_Users` Organizational Unit if it does not already exist. |
-| 4 | Creates lab users `User01` through `User10`. |
-| 5 | Converts the hardcoded demo lab password `P@ssword123` into a secure string required by `New-ADUser`. |
+| 4 | Creates lab users through `New-ADUser`. |
+| 5 | Converts the temporary password into a secure string required by `New-ADUser`. |
 | 6 | Enables each account. |
 | 7 | Requires password change at next sign-in. |
 | 8 | Skips existing users to avoid duplicate account creation. |
 
 ---
 
-## 🧪 Help Desk Scenarios Practiced
+## 🧩 Help Desk Scenarios Practiced
 
 ### Scenario 1: New User Provisioning
 
 A new employee needs a domain account prepared for first sign-in.
 
-Actions performed:
+**Actions performed:**
 
 - Created users in Active Directory.
 - Placed users in a dedicated lab OU.
@@ -245,7 +274,7 @@ Actions performed:
 
 A user cannot sign in and needs a password reset.
 
-Actions performed:
+**Actions performed:**
 
 - Searched for the user in Active Directory.
 - Reset the user password.
@@ -256,7 +285,7 @@ Actions performed:
 
 A user enters the wrong password multiple times and becomes locked out.
 
-Actions performed:
+**Actions performed:**
 
 - Configured account lockout policy.
 - Tested lockout behavior from the Windows 10 client.
@@ -267,7 +296,7 @@ Actions performed:
 
 A user needs access to a department folder.
 
-Actions performed:
+**Actions performed:**
 
 - Created a folder access security group.
 - Added the required user to the group.
@@ -282,7 +311,7 @@ A demo video is included with this repository and shows the lab environment, Act
 
 🎬 **Watch the demo:** [AD Demo Video](assets/AD%20Demo%20Video.mp4)
 
-> Note: The included video is intended for portfolio review and is kept under GitHub's hard file-size limit. For larger future demos, I would host the video externally or use GitHub Releases / Git LFS.
+> Note: The video is included for portfolio review and is kept under GitHub’s file-size limit. For larger future demos, I would host the video externally or use GitHub Releases / Git LFS.
 
 ---
 
@@ -290,34 +319,34 @@ A demo video is included with this repository and shows the lab environment, Act
 
 | VirtualBox Server DC | VirtualBox Windows 10 Client | Windows 10 Joined to Domain |
 |---|---|---|
-| <img src="screenshots/01-virtualbox-windows-server-dc.png" width="260" alt="VirtualBox Windows Server Domain Controller"> | <img src="screenshots/02-virtualbox-windows-10-client.png" width="260" alt="VirtualBox Windows 10 Client"> | <img src="screenshots/03-windows-10-client-domain-join.png" width="260" alt="Windows 10 Client Joined to Domain"> |
+| <img src="screenshots/01-virtualbox-windows-server-dc.png" width="100%" /> | <img src="screenshots/02-virtualbox-windows-10-client.png" width="100%" /> | <img src="screenshots/03-windows-10-client-domain-join.png" width="100%" /> |
 
 | AD Users & Security Groups | Searching for User | Password Reset |
 |---|---|---|
-| <img src="screenshots/04-ad-users-and-security-groups.png" width="260" alt="Active Directory Users and Security Groups"> | <img src="screenshots/05-searching-for-user-in-ad.png" width="260" alt="Searching for User in Active Directory"> | <img src="screenshots/06-user-password-reset-in-ad.png" width="260" alt="User Password Reset in Active Directory"> |
+| <img src="screenshots/04-ad-users-and-security-groups.png" width="100%" /> | <img src="screenshots/05-searching-for-user-in-ad.png" width="100%" /> | <img src="screenshots/06-user-password-reset-in-ad.png" width="100%" /> |
 
 | Account Lockout Policy | Locked After Failed Attempts | Unlock User Account |
 |---|---|---|
-| <img src="screenshots/07-account-lockout-policy.png" width="260" alt="Account Lockout Policy"> | <img src="screenshots/08-account-lockout-after-3-wrong-attempts.png" width="260" alt="Account Lockout After Wrong Attempts"> | <img src="screenshots/09-unlocking-user-account.png" width="260" alt="Unlocking User Account"> |
+| <img src="screenshots/07-account-lockout-policy.png" width="100%" /> | <img src="screenshots/08-account-lockout-after-3-wrong-attempts.png" width="100%" /> | <img src="screenshots/09-unlocking-user-account.png" width="100%" /> |
 
 | Password Policy | CompanyData Share | HR Access Group |
 |---|---|---|
-| <img src="screenshots/10-password-policy-minimum-length-expiry.png" width="260" alt="Password Policy Minimum Length and Expiry"> | <img src="screenshots/11-companydata-share-properties.png" width="260" alt="CompanyData Share Properties"> | <img src="screenshots/12-hr-folder-access-security-group.png" width="260" alt="HR Folder Access Security Group"> |
+| <img src="screenshots/10-password-policy-minimum-length-expiry.png" width="100%" /> | <img src="screenshots/11-companydata-share-properties.png" width="100%" /> | <img src="screenshots/12-hr-folder-access-security-group.png" width="100%" /> |
 
 | HR Group Members | Mapping Network Drive | Drive Mapped Successfully |
 |---|---|---|
-| <img src="screenshots/13-hr-folder-access-members.png" width="260" alt="HR Folder Access Members"> | <img src="screenshots/14-mapping-network-drive-for-new-user.png" width="260" alt="Mapping Network Drive for New User"> | <img src="screenshots/15-network-drive-mapped-successfully.png" width="260" alt="Network Drive Mapped Successfully"> |
+| <img src="screenshots/13-hr-folder-access-members.png" width="100%" /> | <img src="screenshots/14-mapping-network-drive-for-new-user.png" width="100%" /> | <img src="screenshots/15-network-drive-mapped-successfully.png" width="100%" /> |
 
 | PowerShell Bulk User Creation |
 |---|
-| <img src="screenshots/16-powershell-bulk-user-creation-output.png" width="820" alt="PowerShell Bulk User Creation Output"> |
+| <img src="screenshots/16-powershell-bulk-user-creation-output.png" width="100%" /> |
 
 ---
 
 ## 📘 Screenshot Descriptions
 
 | # | Screenshot | Description |
-|---|---|---|
+|---:|---|---|
 | 1 | VirtualBox Windows Server DC | Shows the Windows Server virtual machine used as the domain controller. |
 | 2 | VirtualBox Windows 10 Client | Shows the Windows 10 client machine used for workstation-side testing. |
 | 3 | Windows 10 Domain Join | Confirms the Windows 10 client was joined to the domain. |
@@ -328,7 +357,7 @@ A demo video is included with this repository and shows the lab environment, Act
 | 8 | Account Locked | Shows the account lockout result after multiple wrong password attempts. |
 | 9 | Unlock User | Shows the workflow for unlocking a locked domain account. |
 | 10 | Password Policy | Shows minimum password length and password expiry configuration. |
-| 11 | CompanyData Share | Shows the shared folder properties for the simulated company data folder. |
+| 11 | CompanyData Share | Shows shared folder properties for the simulated company data folder. |
 | 12 | HR Folder Access Group | Shows the security group used to manage HR folder access. |
 | 13 | HR Group Members | Shows membership validation for the HR folder access group. |
 | 14 | Mapping Network Drive | Shows mapping a shared network drive for a domain user. |
@@ -353,12 +382,26 @@ In a real business environment, security groups often control access to sensitiv
 
 For this project, the safer and more realistic approach was:
 
-✅ Automate repeatable user provisioning  
-✅ Manually create and validate access groups  
-✅ Confirm group membership before assigning folder permissions  
-✅ Test access from a domain-joined Windows client  
+- ✅ Automate repeatable user provisioning.
+- ✅ Manually create and validate access groups.
+- ✅ Confirm group membership before assigning folder permissions.
+- ✅ Test access from a domain-joined Windows client.
 
-This shows both automation skill and good access-control judgment. In IT support, speed matters — but access control still needs review.
+This shows both automation skill and good access-control judgment. In IT support, speed matters, but access control still needs review.
+
+---
+
+## 🧠 What I Learned
+
+This project strengthened my understanding of:
+
+- Active Directory user and group management.
+- Domain controller and client workstation relationships.
+- Common help desk workflows around passwords and account lockouts.
+- Group-based access control for shared folders.
+- Mapped network drive troubleshooting.
+- PowerShell automation for repeatable administrative tasks.
+- The importance of documenting technical work clearly for support teams and future troubleshooting.
 
 ---
 
@@ -368,7 +411,7 @@ Built a hands-on Active Directory lab using Windows Server, Windows 10, Oracle V
 
 ---
 
-## 🧠 Skills Demonstrated
+## 🎯 Skills Demonstrated
 
 | Category | Skills |
 |---|---|
@@ -378,18 +421,18 @@ Built a hands-on Active Directory lab using Windows Server, Windows 10, Oracle V
 | Access Control | Group-based permissions, shared folders, mapped drives |
 | Security Basics | Password policy, account lockout policy, least-privilege thinking |
 | Automation | PowerShell scripting, repeatable user provisioning |
-| Documentation | Screenshot evidence, GitHub README, demo planning |
+| Documentation | Screenshots, README documentation, demo planning |
 
 ---
 
 ## 🧩 Planned Enhancements
 
-- 🧾 Add CSV-based user onboarding with department, title, and group fields.
-- 📊 Add automatic HTML report after each user creation run.
-- 🧪 Add a validation script that checks whether expected users and groups exist.
-- 🗂️ Add Group Policy-based drive mapping instead of manual mapping.
-- 🔐 Add a least-privilege access review checklist.
-- ☁️ Extend the lab into Microsoft Entra ID / hybrid identity in a future project.
+- Add CSV-based user onboarding with department, title, and group fields.
+- Add automated HTML report after each user creation run.
+- Add a validation script that checks whether expected users and groups exist.
+- Add Group Policy-based drive mapping instead of manual mapping.
+- Add a least-privilege access review checklist.
+- Extend the lab into Microsoft Entra ID / hybrid identity in a future project.
 
 ---
 
@@ -399,20 +442,24 @@ Built a hands-on Active Directory lab using Windows Server, Windows 10, Oracle V
 IT Support Specialist • PowerShell Automation • Microsoft 365 / Entra / Intune  
 📍 Toronto, Canada
 
-🔗 [GitHub](https://github.com/MoustafaObari)  
-🔗 [LinkedIn](https://www.linkedin.com/in/moustafa-obari/)  
-✉️ [moustafaobari@gmail.com](mailto:moustafaobari@gmail.com)
+- 🔗 [GitHub](https://github.com/MoustafaObari)
+- 🔗 [LinkedIn](https://www.linkedin.com/)
+- ✉️ moustafaobari@gmail.com
 
 ---
 
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/Profile%20Views-Portfolio%20Project-111827?style=flat-square" alt="Profile Views" />
+</p>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=MoustafaObari&style=flat-square&color=blue)](https://github.com/MoustafaObari)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:FCA5A5,50:C4B5FD,100:7DD3FC&text=Turning%20common%20help%20desk%20tasks%20into%20documented%2C%20repeatable%2C%20and%20secure%20workflows.&fontColor=ffffff&fontSize=13&fontAlignY=70" alt="Footer" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:59C3FF,55:7C83FD,100:FF9A9E&height=120&section=footer&text=Turning%20common%20help%20desk%20tasks%20into%20documented%2C%20repeatable%2C%20and%20secure%20workflows.&fontSize=15&fontColor=ffffff&animation=fadeIn&fontAlignY=70" alt="Footer Banner" />
+<p align="center">
+  © 2026 Moustafa Obari — crafted with 💙 PowerShell, Windows Server, Markdown, and strong coffee.
+</p>
 
-© 2026 Moustafa Obari — crafted with 🧠 PowerShell, Windows Server, Markdown, and strong coffee.
-
-⬆️ [Back to Top](#active-directory-administration-lab)
-
-</div>
+<p align="center">
+  <a href="#active-directory-administration-lab">⬆ Back to Top</a>
+</p>
