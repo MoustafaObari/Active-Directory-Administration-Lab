@@ -23,7 +23,7 @@
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech%20Stack-111827?style=for-the-badge" alt="Tech Stack" /></a>
   <a href="#-setup"><img src="https://img.shields.io/badge/Setup-111827?style=for-the-badge" alt="Setup" /></a>
   <a href="#-demo-video"><img src="https://img.shields.io/badge/Demo-111827?style=for-the-badge" alt="Demo" /></a>
-  <a href="#-screenshots"><img src="https://img.shields.io/badge/Screenshots-111827?style=for-the-badge" alt="Screenshots" /></a>
+  <a href="#screenshots"><img src="https://img.shields.io/badge/Screenshots-111827?style=for-the-badge" alt="Screenshots" /></a>
   <a href="#-security-design-decision"><img src="https://img.shields.io/badge/Security%20Decision-111827?style=for-the-badge" alt="Security Decision" /></a>
 </p>
 
@@ -315,6 +315,7 @@ A demo video is included with this repository and shows the lab environment, Act
 
 ---
 
+<a id="screenshots"></a>
 ## 🖼️ Screenshots
 
 | VirtualBox Server DC | VirtualBox Windows 10 Client | Windows 10 Joined to Domain |
