@@ -444,7 +444,7 @@ IT Support Specialist • PowerShell Automation • Microsoft 365 / Entra / Intu
 📍 Toronto, Canada
 
 - 🔗 [GitHub](https://github.com/MoustafaObari)
-- 🔗 [LinkedIn](https://www.linkedin.com/)
+- 🔗 [LinkedIn](www.linkedin.com/in/moustafaobari)
 - ✉️ moustafaobari@gmail.com
 
 ---
