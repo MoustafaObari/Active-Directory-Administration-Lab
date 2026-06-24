@@ -1,7 +1,5 @@
 <a id="top"></a>
 
-# Active Directory Administration Lab
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:7DD3FC,50:C4B5FD,100:FCA5A5&text=Active%20Directory%20Administration%20Lab&fontAlignY=35&fontColor=ffffff&fontSize=36&desc=Windows%20Server%20identity%20support%20lab%20for%20users%2C%20groups%2C%20passwords%2C%20lockouts%2C%20mapped%20drives%2C%20and%20PowerShell%20automation&descAlignY=58&descSize=13" alt="Active Directory Administration Lab Banner" />
 </p>
