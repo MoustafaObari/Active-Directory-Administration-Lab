@@ -19,19 +19,23 @@
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#project-snapshot">Snapshot</a> •
-  <a href="#use-cases">Use Cases</a> •
-  <a href="#features">Features</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#lab-architecture">Architecture</a> •
-  <a href="#setup">Setup</a> •
-  <a href="#powershell-automation">PowerShell</a> •
-  <a href="#support-workflow">Support Workflow</a> •
-  <a href="#demo-video">Demo</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#validation-evidence">Validation</a> •
-  <a href="#security-design-and-scope-control">Security</a>
+  <a href="#overview"><img src="https://img.shields.io/badge/Overview-111827?style=for-the-badge" alt="Overview" /></a>
+  <a href="#project-snapshot"><img src="https://img.shields.io/badge/Snapshot-2563EB?style=for-the-badge" alt="Snapshot" /></a>
+  <a href="#use-cases"><img src="https://img.shields.io/badge/Use%20Cases-111827?style=for-the-badge" alt="Use Cases" /></a>
+  <a href="#features"><img src="https://img.shields.io/badge/Features-2563EB?style=for-the-badge" alt="Features" /></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech%20Stack-111827?style=for-the-badge" alt="Tech Stack" /></a>
+  <a href="#lab-architecture"><img src="https://img.shields.io/badge/Architecture-2563EB?style=for-the-badge" alt="Architecture" /></a>
+  <a href="#setup"><img src="https://img.shields.io/badge/Setup-111827?style=for-the-badge" alt="Setup" /></a>
+  <a href="#powershell-automation"><img src="https://img.shields.io/badge/PowerShell-2563EB?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" /></a>
+</p>
+
+<p align="center">
+  <a href="#support-workflow"><img src="https://img.shields.io/badge/Support%20Workflow-111827?style=for-the-badge" alt="Support Workflow" /></a>
+  <a href="#demo-video"><img src="https://img.shields.io/badge/Demo%20Video-2563EB?style=for-the-badge" alt="Demo Video" /></a>
+  <a href="#screenshots"><img src="https://img.shields.io/badge/Screenshots-111827?style=for-the-badge" alt="Screenshots" /></a>
+  <a href="#validation-evidence"><img src="https://img.shields.io/badge/Validation-16A34A?style=for-the-badge" alt="Validation" /></a>
+  <a href="#security-design-and-scope-control"><img src="https://img.shields.io/badge/Security%20Design-111827?style=for-the-badge" alt="Security Design" /></a>
+  <a href="#developer"><img src="https://img.shields.io/badge/Developer-2563EB?style=for-the-badge" alt="Developer" /></a>
 </p>
 
 ---
