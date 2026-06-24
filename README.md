@@ -33,6 +33,7 @@
   <a href="#screenshots"><img src="https://img.shields.io/badge/Screenshots-111827?style=for-the-badge" alt="Screenshots" /></a>
   <a href="#validation-evidence"><img src="https://img.shields.io/badge/Validation-16A34A?style=for-the-badge" alt="Validation" /></a>
   <a href="#security-design-and-scope-control"><img src="https://img.shields.io/badge/Security%20Design-111827?style=for-the-badge" alt="Security Design" /></a>
+  <a href="#planned-enhancements"><img src="https://img.shields.io/badge/Enhancements-2563EB?style=for-the-badge" alt="Enhancements" /></a>
   <a href="#developer"><img src="https://img.shields.io/badge/Developer-2563EB?style=for-the-badge" alt="Developer" /></a>
 </p>
 
